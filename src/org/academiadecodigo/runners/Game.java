@@ -1,10 +1,7 @@
 package org.academiadecodigo.runners;
 
 import org.academiadecodigo.runners.grid.Grid;
-import org.academiadecodigo.runners.model.Mc;
-import org.academiadecodigo.runners.model.McsPicsPath;
-import org.academiadecodigo.runners.model.Player;
-import org.academiadecodigo.runners.model.PlayerPicsPath;
+import org.academiadecodigo.runners.model.*;
 import org.academiadecodigo.runners.simplegfx.SimpleGfxGrid;
 
 import java.util.ArrayList;
@@ -13,11 +10,9 @@ import java.util.List;
 public class Game {
 
     private Grid grid;
-
     private Player player;
 
-    private CollisionDetector collisionDetector;
-
+    private Obstacle obstacle;
     List<Mc> mcs;
     private boolean gameOver;
 
@@ -26,8 +21,8 @@ public class Game {
     }
 
     public void init() {
-        this.collisionDetector = new CollisionDetector();
         this.mcs = new ArrayList<>();
+        this.player = this.selectPlayer();
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 490, 50, this.player));
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 690, 50, this.player));
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 890, 50, this.player));
@@ -38,18 +33,14 @@ public class Game {
     }
 
     public void start(){
-        this.player = this.selectPlayer();
 
         while(!this.gameOver) {
-            this.mcs.get((int) Math.random() * 3).trowObstacles();
+           this.gameOver = this.mcs.get((int) Math.random() * 3).trowObstacles();
         }
     }
 
     public Player selectPlayer() {
         return new Player(PlayerPicsPath.PAULA);
-    }
-
-    public boolean setGameOver() {
-        return true;
+        //colocar todas as opções de players
     }
 }

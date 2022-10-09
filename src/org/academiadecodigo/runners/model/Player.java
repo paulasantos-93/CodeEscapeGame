@@ -14,9 +14,10 @@ public class Player implements KeyboardHandler {
     private Picture pic;
     private Keyboard keyboard;
     private int limit;
+
     public Player(PlayerPicsPath path) {
         this.keyboard = new Keyboard(this);
-        this.pic = new Picture(400, 350, path.getPath());
+        this.pic = new Picture(490, 350, path.getPath());
         this.pic.draw();
         this.name = path.getName();
         this.limit = 0;
@@ -76,4 +77,9 @@ public class Player implements KeyboardHandler {
     public void setScore(int score) {
         this.score = score;
     }
+
+    public Picture getPic(){
+        return pic;
+    }
+
 }

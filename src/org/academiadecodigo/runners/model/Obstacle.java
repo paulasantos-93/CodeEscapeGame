@@ -1,5 +1,6 @@
 package org.academiadecodigo.runners.model;
 
+import org.academiadecodigo.runners.grid.position.GridPosition;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class Obstacle {
@@ -19,7 +20,7 @@ public class Obstacle {
         this.player = player;
     }
 
-    public void move() {
+    public boolean move() {
         this.pic = new Picture(col, row, path.getPath());
         this.pic.draw();
 
@@ -31,15 +32,29 @@ public class Obstacle {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            this.pic.translate(0, -220);
-            /*verificar se colidiu com o player (posição do player = obstáculo) se colidiu e o obstáculo for do tipo
-            GOOD aumenta score do Player, se for obstáculo BAD perde vidas do Player */
+            this.pic.translate(0, 100);
+
+            if (checkCollision()) {
+                if(path.getType().equals("GOOD")) {
+                    player.setScore(player.getScore() + 1);
+                } else {
+                    player.setLives(player.getLives() - 1);
+                    if(player.getLives() < 1) {
+                        return false;
+                    }
+                    }
+                }
             i++;
-        }
+            }
         this.pic.delete();
+        return true;
+        }
+
+
+    public boolean checkCollision() {
+
+        return pic.getX() == player.getPic().getX() && pic.getY() >= player.getPic().getY() - 100;
     }
 
-    public Picture getPic() {
-        return pic;
-    }
+
 }

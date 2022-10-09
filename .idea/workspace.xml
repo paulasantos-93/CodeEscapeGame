@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base" />
+    <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base">
+      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/grid/position/AbstractGridPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/grid/position/GridPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/CollisionDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/CollisionDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665277158575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added initial project base">
+      <created>1665277438301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665277438301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

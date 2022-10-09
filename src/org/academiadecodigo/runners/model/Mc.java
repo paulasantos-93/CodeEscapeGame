@@ -16,8 +16,9 @@ public class Mc {
         this.pic = new Picture(col, row, path.getPath());
         this.name = path.getName();
         this.pic.draw();
+        this.player = player;
         this.obstacles = new ArrayList<>();
-        this.obstacles.add(new Obstacle(ObstaclesPicsPath.SUPER_BOCK, this.pic.getX(), this.pic.getY() + 100, player));
+        this.obstacles.add(new Obstacle(ObstaclesPicsPath.SUPER_BOCK, this.pic.getX(), this.pic.getY() + 100, this.player));
         //alterar o SUPER_BOCK para um valor random do enum de obstáculos
     }
 
@@ -26,8 +27,12 @@ public class Mc {
         this.trowObstacles();
     }
 
-    public void trowObstacles(){
+    public boolean trowObstacles(){
         //alterar o valor 0 por um random do enum de obstáculos
-        this.obstacles.get(0).move();
+        return this.obstacles.get(0).move();
+    }
+
+    public List<Obstacle> getObstacles() {
+        return obstacles;
     }
 }
