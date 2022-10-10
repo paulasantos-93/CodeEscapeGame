@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base">
-      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/bola.pilates.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/puff.verde.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/super.bock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.java" afterDir="false" />
-    </list>
+    <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
