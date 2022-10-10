@@ -21,21 +21,23 @@ public class Game {
     }
 
     public void init() {
-        this.mcs = new ArrayList<>();
+        this.grid.init();
         this.player = this.selectPlayer();
+        this.mcs = new ArrayList<>();
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 490, 50, this.player));
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 690, 50, this.player));
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 890, 50, this.player));
         for (Mc mc : mcs) {
             mc.trowObstacles();
         }
-        this.grid.init();
+
     }
 
     public void start(){
 
         while(!this.gameOver) {
-           this.gameOver = this.mcs.get((int) Math.random() * 3).trowObstacles();
+           this.gameOver = this.mcs.get((int) (Math.random() * 3)).trowObstacles();
+
         }
     }
 

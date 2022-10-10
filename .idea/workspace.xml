@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base">
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/grid/position/AbstractGridPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/grid/position/GridPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/bola.pilates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/puff.verde.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/super.bock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/CollisionDetector.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/CollisionDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +45,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="corretto-1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2FrrqM6XY4aGpReeaiq2pGbU7y4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/paularibeirosantos/Documents/Runners/resources/images/players",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paularibeirosantos/Documents/Runners/resources/images/obstacles&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/images/obstacles" />
       <recent name="$PROJECT_DIR$/resources/images/players" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
@@ -117,5 +135,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added initial project base" />
     <option name="LAST_COMMIT_MESSAGE" value="added initial project base" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Runners$Main.ic" NAME="Main Coverage Results" MODIFIED="1665424488803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.academiadecodigo.runners.*</FILTER>
+    </SUITE>
   </component>
 </project>
