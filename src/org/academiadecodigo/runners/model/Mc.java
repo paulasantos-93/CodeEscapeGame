@@ -18,8 +18,8 @@ public class Mc {
         this.pic.draw();
         this.player = player;
         this.obstacles = new ArrayList<>();
-        this.obstacles.add(new Obstacle(ObstaclesPicsPath.SUPER_BOCK, this.pic.getX(), this.pic.getY() + 100, this.player));
-        //alterar o SUPER_BOCK para um valor random do enum de obstáculos
+        this.obstacles.add(new Obstacle(ObstaclesPicsPath.values()[(int) (Math.random() * 3)], this.pic.getX(), this.pic.getY() + 100, this.player));
+
     }
 
     private void init() {

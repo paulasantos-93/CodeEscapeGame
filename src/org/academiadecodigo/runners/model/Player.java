@@ -17,11 +17,11 @@ public class Player implements KeyboardHandler {
 
     public Player(PlayerPicsPath path) {
         this.keyboard = new Keyboard(this);
-        this.pic = new Picture(490, 350, path.getPath());
+        this.pic = new Picture(10, 10, path.getPath());
         this.pic.draw();
         this.name = path.getName();
         this.limit = 0;
-        this.lives = 3;
+        this.lives = 1;
         this.init();
     }
     private void init() {
