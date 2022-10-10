@@ -24,9 +24,9 @@ public class Game {
         this.grid.init();
         this.player = this.selectPlayer();
         this.mcs = new ArrayList<>();
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 490, 50, this.player));
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 690, 50, this.player));
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 890, 50, this.player));
+        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 100, 100, this.player));
+        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 400, 100, this.player));
+        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 700, 100, this.player));
         for (Mc mc : mcs) {
             mc.trowObstacles();
         }
@@ -35,7 +35,7 @@ public class Game {
 
     public void start(){
 
-        while(!this.gameOver) {
+        while(player.getLives() > 0) {
            this.gameOver = this.mcs.get((int) (Math.random() * 3)).trowObstacles();
 
         }

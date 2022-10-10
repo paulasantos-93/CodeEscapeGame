@@ -19,7 +19,8 @@ public class Mc {
         this.player = player;
         this.obstacles = new ArrayList<>();
         this.obstacles.add(new Obstacle(ObstaclesPicsPath.values()[(int) (Math.random() * 3)], this.pic.getX(), this.pic.getY() + 100, this.player));
-
+        this.obstacles.add(new Obstacle(ObstaclesPicsPath.values()[(int) (Math.random() * 3)], this.pic.getX(), this.pic.getY() + 100, this.player));
+        this.obstacles.add(new Obstacle(ObstaclesPicsPath.values()[(int) (Math.random() * 3)], this.pic.getX(), this.pic.getY() + 100, this.player));
     }
 
     private void init() {
@@ -28,8 +29,7 @@ public class Mc {
     }
 
     public boolean trowObstacles(){
-        //alterar o valor 0 por um random do enum de obstáculos
-        return this.obstacles.get(0).move();
+        return this.obstacles.get((int) (Math.random() * 3)).move();
     }
 
     public List<Obstacle> getObstacles() {

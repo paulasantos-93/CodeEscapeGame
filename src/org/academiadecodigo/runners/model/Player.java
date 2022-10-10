@@ -12,16 +12,20 @@ public class Player implements KeyboardHandler {
     private int lives;
     private int score;
     private Picture pic;
+    private Picture picr;
+    private Picture picl;
     private Keyboard keyboard;
     private int limit;
 
     public Player(PlayerPicsPath path) {
         this.keyboard = new Keyboard(this);
-        this.pic = new Picture(10, 10, path.getPath());
+        this.pic = new Picture(400, 700, "./resources/images/players/player_stop.png");
+        this.picr= new Picture(400, 700, "./resources/images/players/player_right.png");
+        this.picl= new Picture(400, 700, "./resources/images/players/player_left.png");
         this.pic.draw();
         this.name = path.getName();
         this.limit = 0;
-        this.lives = 1;
+        this.lives = 4;
         this.init();
     }
     private void init() {
@@ -36,6 +40,17 @@ public class Player implements KeyboardHandler {
         key.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
 
         keyboard.addEventListener(key);
+
+        KeyboardEvent l = new KeyboardEvent();
+        l.setKey(KeyboardEvent.KEY_LEFT);
+        l.setKeyboardEventType(KeyboardEventType.KEY_RELEASED);
+
+        KeyboardEvent r = new KeyboardEvent();
+        r.setKey(KeyboardEvent.KEY_RIGHT);
+        r.setKeyboardEventType(KeyboardEventType.KEY_RELEASED);
+
+        keyboard.addEventListener(l);
+        keyboard.addEventListener(r);
     }
 
     @Override
@@ -43,14 +58,24 @@ public class Player implements KeyboardHandler {
 
         switch (keyboardEvent.getKey()) {
             case KeyboardEvent.KEY_LEFT:
+                pic.delete();
+                picr.delete();
+                picl.draw();
                 if (this.limit >= 0) {
-                    pic.translate(-100, 0);
+                    pic.translate(-300, 0);
+                    picr.translate(-300, 0);
+                    picl.translate(-300, 0);
                     this.limit--;
                 }
                 break;
             case KeyboardEvent.KEY_RIGHT:
+                pic.delete();
+                picl.delete();
+                picr.draw();
                 if (this.limit <= 0) {
-                    pic.translate(100, 0);
+                    pic.translate(300, 0);
+                    picr.translate(300, 0);
+                    picl.translate(300, 0);
                     this.limit++;
                 }
                 break;
@@ -59,6 +84,9 @@ public class Player implements KeyboardHandler {
 
     @Override
     public void keyReleased(KeyboardEvent keyboardEvent) {
+        picl.delete();
+        picr.delete();
+        pic.draw();
     }
 
 

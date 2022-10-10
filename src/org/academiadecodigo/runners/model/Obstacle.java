@@ -16,7 +16,7 @@ public class Obstacle {
         this.path = path;
         this.col = col;
         this.row = row;
-        this.limit = 3;
+        this.limit = 7;
         this.player = player;
     }
 
@@ -28,7 +28,7 @@ public class Obstacle {
 
         while(i <= limit) {
             try {
-                Thread.sleep(500);
+                Thread.sleep(400);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -52,8 +52,7 @@ public class Obstacle {
 
 
     public boolean checkCollision() {
-
-        return pic.getX() == player.getPic().getX() && pic.getY() >= player.getPic().getY() - 100;
+        return pic.getX() == player.getPic().getX() && pic.getY() >= player.getPic().getY();
     }
 
 
