@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873a7b58-278e-47cf-a5f6-acaa997afd3e" name="Changes" comment="added initial project base">
-      <change afterPath="$PROJECT_DIR$/resources/images/players/player_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/players/player_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/players/player_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/mcs/Gustavo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/mcs/Mariana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/mcs/Sara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/sql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/obstacles/super.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/players/player_left (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/players/player_right (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/players/player_stop (1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/AbstractGridPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/grid/position/GridPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Mc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/McsPicsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Obstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/ObstaclesPicsPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/model/PlayerPicsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runners/org/academiadecodigo/runners/simplegfx/SimpleGfxGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/players/player_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/players/player_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/players/player_stop.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Mc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/McsPicsPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/McsPicsPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/ObstaclesPicsPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/runners/model/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +69,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/paularibeirosantos/Documents/Runners/resources/images/players",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -59,6 +83,11 @@
       <recent name="$PROJECT_DIR$/resources/images/players" />
       <recent name="$PROJECT_DIR$/resources/images/obstacles" />
       <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/images/mcs" />
+      <recent name="$PROJECT_DIR$/resources/images/obstacles" />
+      <recent name="$PROJECT_DIR$/resources/images/players" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,6 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665261238276</updated>
+      <workItem from="1665505580888" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="added initial project base">
       <created>1665277158574</created>
@@ -106,6 +136,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

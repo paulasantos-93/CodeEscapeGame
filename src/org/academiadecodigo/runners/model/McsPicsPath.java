@@ -2,9 +2,9 @@ package org.academiadecodigo.runners.model;
 
 public enum McsPicsPath {
 
-    GUSTAVO("./resources/images/players/paula.png", "Gustavo"),
-    SARA("", "Sara"),
-    MARIANA("", "Mariana");
+    GUSTAVO("./resources/images/mcs/Gustavo.png", "Gustavo"),
+    SARA("./resources/images/mcs/Mariana.png", "Sara"),
+    MARIANA("./resources/images/mcs/Sara.png", "Mariana");
 
     private final String path;
     private final String name;
