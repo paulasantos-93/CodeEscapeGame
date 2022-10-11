@@ -19,9 +19,9 @@ public class Player implements KeyboardHandler {
 
     public Player(PlayerPicsPath path) {
         this.keyboard = new Keyboard(this);
-        this.pic = new Picture(400, 700, "./resources/images/players/player_stop.png");
-        this.picr= new Picture(400, 700, "./resources/images/players/player_right.png");
-        this.picl= new Picture(400, 700, "./resources/images/players/player_left.png");
+        this.pic = new Picture(235, 636, "./resources/images/players/player_stop (1).png");
+        this.picr= new Picture(235, 636, "./resources/images/players/player_right (1).png");
+        this.picl= new Picture(235, 636, "./resources/images/players/player_left (1).png");
         this.pic.draw();
         this.name = path.getName();
         this.limit = 0;
@@ -62,9 +62,9 @@ public class Player implements KeyboardHandler {
                 picr.delete();
                 picl.draw();
                 if (this.limit >= 0) {
-                    pic.translate(-300, 0);
-                    picr.translate(-300, 0);
-                    picl.translate(-300, 0);
+                    pic.translate(-200, 0);
+                    picr.translate(-200, 0);
+                    picl.translate(-200, 0);
                     this.limit--;
                 }
                 break;
@@ -73,9 +73,9 @@ public class Player implements KeyboardHandler {
                 picl.delete();
                 picr.draw();
                 if (this.limit <= 0) {
-                    pic.translate(300, 0);
-                    picr.translate(300, 0);
-                    picl.translate(300, 0);
+                    pic.translate(200, 0);
+                    picr.translate(200, 0);
+                    picl.translate(200, 0);
                     this.limit++;
                 }
                 break;

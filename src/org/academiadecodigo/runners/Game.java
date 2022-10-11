@@ -24,9 +24,9 @@ public class Game {
         this.grid.init();
         this.player = this.selectPlayer();
         this.mcs = new ArrayList<>();
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 100, 100, this.player));
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 400, 100, this.player));
-        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 700, 100, this.player));
+        this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 10, 10, this.player));
+        this.mcs.add(new Mc(McsPicsPath.SARA, 210, 10, this.player));
+        this.mcs.add(new Mc(McsPicsPath.MARIANA, 410, 10, this.player));
         for (Mc mc : mcs) {
             mc.trowObstacles();
         }
