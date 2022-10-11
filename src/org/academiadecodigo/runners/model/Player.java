@@ -1,10 +1,13 @@
 package org.academiadecodigo.runners.model;
 
+import org.academiadecodigo.simplegraphics.graphics.Text;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
+
+import java.awt.*;
 
 public class Player implements KeyboardHandler {
 
@@ -19,10 +22,11 @@ public class Player implements KeyboardHandler {
 
     public Player(PlayerPicsPath path) {
         this.keyboard = new Keyboard(this);
-        this.pic = new Picture(235, 636, "./resources/images/players/player_stop (1).png");
-        this.picr= new Picture(235, 636, "./resources/images/players/player_right (1).png");
-        this.picl= new Picture(235, 636, "./resources/images/players/player_left (1).png");
+        this.pic = new Picture(265, 620, "./resources/images/players/player_stop (1).png");
+        this.picr= new Picture(265, 620, "./resources/images/players/player_right (1).png");
+        this.picl= new Picture(265, 620, "./resources/images/players/player_left (1).png");
         this.pic.draw();
+        this.name = path.getName();
         this.limit = 0;
         this.lives = 4;
         this.init();
