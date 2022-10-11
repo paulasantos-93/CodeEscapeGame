@@ -37,8 +37,10 @@ public class Obstacle {
             if (checkCollision()) {
                 if(path.getType().equals("GOOD")) {
                     player.setScore(player.getScore() + 1);
+                    System.out.println("score " + player.getScore());
                 } else {
                     player.setLives(player.getLives() - 1);
+                    System.out.println("lives " + player.getLives());
                     if(player.getLives() < 1) {
                         return false;
                     }
@@ -53,6 +55,7 @@ public class Obstacle {
 
     public boolean checkCollision() {
         return pic.getX() == player.getPic().getX() && pic.getY() >= player.getPic().getY();
+        //return ((pic.getHeight())/2) == ((player.getPic().getX())*2);
     }
 
 

@@ -2,9 +2,9 @@ package org.academiadecodigo.runners.model;
 
 public enum ObstaclesPicsPath {
 
-    SUPER_BOCK("./resources/images/obstacles/super.bock.png", "GOOD"),
-    PUFF_VERDE("./resources/images/obstacles/puff.verde.jpeg", "BAD"),
-    BOLA_PILATES("./resources/images/obstacles/bola.pilates.png", "BAD");
+    SUPER_BOCK("./resources/images/obstacles/super.png", "GOOD"),
+    SQL("./resources/images/obstacles/sql.png", "BAD"),
+    JAVA("./resources/images/obstacles/java.png", "BAD");
 
 
     private final String path;
