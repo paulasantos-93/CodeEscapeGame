@@ -23,7 +23,6 @@ public class Player implements KeyboardHandler {
         this.picr= new Picture(235, 636, "./resources/images/players/player_right (1).png");
         this.picl= new Picture(235, 636, "./resources/images/players/player_left (1).png");
         this.pic.draw();
-        this.name = path.getName();
         this.limit = 0;
         this.lives = 4;
         this.init();
