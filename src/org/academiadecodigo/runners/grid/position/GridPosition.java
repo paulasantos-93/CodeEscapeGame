@@ -1,5 +1,5 @@
 package org.academiadecodigo.runners.grid.position;
-
+/*
 public interface GridPosition {
 
     int getCol();
@@ -12,3 +12,4 @@ public interface GridPosition {
 
 
 }
+*/

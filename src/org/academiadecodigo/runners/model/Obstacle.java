@@ -1,6 +1,6 @@
 package org.academiadecodigo.runners.model;
 
-import org.academiadecodigo.runners.grid.position.GridPosition;
+
 import org.academiadecodigo.simplegraphics.graphics.Text;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 

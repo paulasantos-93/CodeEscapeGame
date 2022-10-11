@@ -1,6 +1,6 @@
 package org.academiadecodigo.runners.grid.position;
 
-import org.academiadecodigo.runners.grid.Grid;
+/*import org.academiadecodigo.runners.grid.Grid;
 
 public abstract class AbstractGridPosition implements GridPosition{
 
@@ -36,3 +36,4 @@ public abstract class AbstractGridPosition implements GridPosition{
     }
 
 }
+*/

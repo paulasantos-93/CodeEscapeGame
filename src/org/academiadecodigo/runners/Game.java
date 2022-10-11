@@ -1,6 +1,6 @@
 package org.academiadecodigo.runners;
 
-import org.academiadecodigo.runners.grid.Grid;
+
 import org.academiadecodigo.runners.model.*;
 import org.academiadecodigo.runners.simplegfx.SimpleGfxGrid;
 
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Game {
 
-    private Grid grid;
+    private SimpleGfxGrid grid;
     private Player player;
 
     private Obstacle obstacle;
