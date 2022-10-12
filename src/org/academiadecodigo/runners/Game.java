@@ -43,9 +43,9 @@ public class Game{
         this.mcs = new ArrayList<>();
         this.mcs.add(new Mc(McsPicsPath.GUSTAVO, 10, 10, this.player));
         this.mcs.add(new Mc(McsPicsPath.SARA, 210, 10, this.player));
-        this.mcs.add(new Mc(McsPicsPath.MARIANA, 410, 10, this.player));
+        this.mcs.add(new Mc(McsPicsPath.CAROL, 410, 10, this.player));
         this.mcs.add(new Mc(McsPicsPath.BALJEET, 610, 10, this.player));
-        this.mcs.add(new Mc(McsPicsPath.CAROL, 810, 10, this.player));
+        this.mcs.add(new Mc(McsPicsPath.MARIANA, 810, 10, this.player));
         for (Mc mc : mcs) {
             mc.trowObstacles();
         }

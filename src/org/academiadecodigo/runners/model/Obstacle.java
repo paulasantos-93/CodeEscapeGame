@@ -13,7 +13,7 @@ public class Obstacle {
     private int row;
     private Player player;
 
-    private int speed = 100;
+    private int speed = 70;
 
 
 
@@ -50,6 +50,10 @@ public class Obstacle {
                 if(path.getType().equals("GOOD")) {
                     this.pic.delete();
                     player.setScore(player.getScore() + 1);
+
+
+                    player.getScoretxt().setText("Score :" + player.getScore());
+
                     System.out.println("score " + player.getScore());
                 } else {
                     this.pic.delete();

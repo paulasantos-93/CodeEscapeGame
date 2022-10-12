@@ -3,8 +3,8 @@ package org.academiadecodigo.runners.model;
 public enum McsPicsPath {
 
     GUSTAVO("./resources/images/mcs/guga.png", "Gustavo"),
-    SARA("./resources/images/mcs/Mariana.png", "Sara"),
-    MARIANA("./resources/images/mcs/sara.png", "Mariana"),
+    SARA("./resources/images/mcs/sara.png", "Sara"),
+    MARIANA("./resources/images/mcs/mariana.png", "Mariana"),
 
     BALJEET( "./resources/images/mcs/baljeet.png", "Baljeet"),
 

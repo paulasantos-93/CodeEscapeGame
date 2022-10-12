@@ -1,10 +1,13 @@
 package org.academiadecodigo.runners.model;
 
+import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
+
+import org.academiadecodigo.simplegraphics.graphics.Text;
 
 import static org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent.*;
 
@@ -34,6 +37,8 @@ public class Player implements KeyboardHandler {
     private Picture half2;
     private Picture half3;
 
+    private Text scoretxt;
+
 
 
 
@@ -55,6 +60,11 @@ public class Player implements KeyboardHandler {
         this.half = new Picture(1010, 10, "./resources/images/lifes/half_heart.png");
         this.half2 = new Picture(1010, 110, "./resources/images/lifes/half_heart.png");
         this.half3 = new Picture(1010, 210, "./resources/images/lifes/half_heart.png");
+
+        this.scoretxt = new Text(1045, 350, "Score: " + getScore());
+        this.scoretxt.setColor(Color.WHITE);
+        this.scoretxt.grow(10,10);
+        this.scoretxt.draw();
 
         this.heart.draw();
         this.heart2.draw();
@@ -153,6 +163,10 @@ public class Player implements KeyboardHandler {
         return half3;
     }
 
+    public Text getScoretxt() {
+        return scoretxt;
+    }
+
     public int getLives() {
         return lives;
     }
@@ -212,7 +226,7 @@ public class Player implements KeyboardHandler {
             pic.delete();
             picl.delete();
             picr.delete();
-            this.gameove = new Picture(10,10,"resources/images/Gameover/gameover.jpeg");
+            this.gameove = new Picture(10,10,"resources/images/Gameover/gameover.png");
             gameove.draw();
             return false;
         }

@@ -3,6 +3,8 @@ package org.academiadecodigo.runners.simplegfx;
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
+import org.academiadecodigo.simplegraphics.graphics.Text;
+import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class SimpleGfxGrid {
 
@@ -22,5 +24,17 @@ public class SimpleGfxGrid {
         this.life = new Rectangle (1010,10,100,900);
         life.setColor(Color.BLACK);
         life.fill();
+
+        Text txt = new Text(1025, 400, "CATCH THIS:");
+        txt.setColor(Color.WHITE);
+        txt.grow(10,10);
+        txt.draw();
+
+        Picture min1 = new Picture(1010, 420, "./resources/images/miniatures/beer.png");
+        min1.draw();
+        Picture min2 = new Picture(1050, 420, "./resources/images/miniatures/weed.png");
+        min2.draw();
+
+
     }
 }
