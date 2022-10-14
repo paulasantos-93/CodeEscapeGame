@@ -11,19 +11,28 @@ public class SimpleGfxGrid {
     public static final int PADDING = 10;
     public static final int WIDTH = 1100;
     public static final int HEIGHT = 900;
-    private Rectangle field;
+    private Picture field;
 
     private Rectangle life;
 
+    private Picture spotlights;
 
+    private Picture floor;
 
     public void init() {
-        this.field = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
-        field.setColor(Color.RED);
-        field.fill();
+        this.field = new Picture(PADDING, PADDING+210,"resources/images/Background/background_base.png");
+        this.field.draw();
+
+
         this.life = new Rectangle (1010,10,100,900);
         life.setColor(Color.BLACK);
         life.fill();
+
+        this.spotlights = new Picture(PADDING,PADDING,"resources/images/Background/backgroundMC2.png");
+        spotlights.draw();
+
+        this.floor = new Picture(PADDING,860,"resources/images/Background/image (4).png");
+        floor.draw();
 
         Text txt = new Text(1025, 400, "CATCH THIS:");
         txt.setColor(Color.WHITE);

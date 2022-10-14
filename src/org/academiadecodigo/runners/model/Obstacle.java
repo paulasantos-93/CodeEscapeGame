@@ -13,7 +13,7 @@ public class Obstacle {
     private int row;
     private Player player;
 
-    private int speed = 70;
+    private int speed = 55;
 
 
 
@@ -53,42 +53,63 @@ public class Obstacle {
 
 
                     player.getScoretxt().setText("Score :" + player.getScore());
-
+                    SoundHandler.RunMusic("resources/Sounds/pling.wav");
                     System.out.println("score " + player.getScore());
                 } else {
                     this.pic.delete();
                     player.setLives(player.getLives() - 1);
 
-
-                    if (player.getLives() == 5) {
+                   if (player.getLives() == 5) {
                         player.getHeart3().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     } else if (player.getLives() == 4) {
                         player.getHalf3().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     } else if (player.getLives() == 3) {
                         player.getHeart2().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     } else if (player.getLives() == 2) {
-                        player.getHalf2().delete();;
+                        player.getHalf2().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     } else if (player.getLives() == 1) {
                         player.getHeart().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     } else{
                         player.getHalf().delete();
+                        SoundHandler.RunMusic("resources/Sounds/plok.wav");
                     }
-
-
-
-
                     System.out.println("lives " + player.getLives());
                     if(player.getLives() < 1) {
                         return false;
                     }
                 }
             }
-            /*if (player.getScore() == 5 ){
-                this.speed -= 40;
-            }*/
-
             i++;
+            if(path.getType().equals("GOOD") && (pic.getX() != (player.getPic().getX()+25)) && (pic.getY() == (player.getPic().getY()))){
+                player.setLives(player.getLives() -1);
+                if (player.getLives() == 5) {
+                    player.getHeart3().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                } else if (player.getLives() == 4) {
+                    player.getHalf3().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                } else if (player.getLives() == 3) {
+                    player.getHeart2().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                } else if (player.getLives() == 2) {
+                    player.getHalf2().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                } else if (player.getLives() == 1) {
+                    player.getHeart().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                } else{
+                    player.getHalf().delete();
+                    SoundHandler.RunMusic("resources/Sounds/plok.wav");
+                }
+
             }
+
+        }
         this.pic.delete();
         return true;
         }
