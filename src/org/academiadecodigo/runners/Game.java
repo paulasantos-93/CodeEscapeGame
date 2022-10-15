@@ -62,7 +62,7 @@ public class Game implements KeyboardHandler{
         start2();
     }
         /**The game will start now, after space is pressed test value will be false.
-         * The start picture will be deleted and the Keyboard event removed
+         * The start picture will be deleted and the Keyboard event removedˇ
          */
      public void start2(){
 
